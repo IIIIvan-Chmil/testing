@@ -746,8 +746,8 @@ img {
 #map {
   width: 347px;
   height: 213px;
-  background-color: red;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 @media (max-width: 1200px) {
@@ -803,11 +803,7 @@ img {
   .booking__call-center {
     margin-bottom: 15px;
   }
-  .map {
-    width: 340px;
-    height: 210px;
-  }
-  .map__size {
+  #map {
     width: 340px;
     height: 210px;
   }
@@ -898,6 +894,12 @@ img {
   }
   .slider {
     margin-bottom: 20px;
+  }
+  .slider-button--next {
+    transform: translateY(-50%) translateX(70%) scale(0.5);
+  }
+  .slider-button--prev {
+    transform: translateY(-50%) translateX(-70%) scale(0.5);
   }
 }
 

@@ -38,12 +38,12 @@
     padding: 30px 22px 23px 23px
     &__call-center
       margin-bottom: 15px
-  .map
+  #map
     width: 340px
     height: 210px
-    &__size
-      width: 340px
-      height: 210px
+    // &__size
+    //   width: 340px
+    //   height: 210px
 
 @media (max-width: 767px)
   .container
@@ -115,6 +115,11 @@
       height: 56vw
   .slider
     margin-bottom: 20px
+    &-button
+      &--next
+        transform: translateY(-50%) translateX(70%) scale(0.5)
+      &--prev
+        transform: translateY(-50%) translateX(-70%) scale(0.5)
 @media (max-width: 320px)
   .hotel
     padding-top: 1px
