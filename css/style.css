@@ -747,7 +747,7 @@ img {
   width: 347px;
   height: 213px;
   border-radius: 10px;
-  object-fit: cover;
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {
@@ -917,7 +917,7 @@ img {
     width: 100%;
     min-height: 100%;
     padding: 30px 18px 23px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
   }
 }
 /*# sourceMappingURL=style.css.map */
